@@ -6,12 +6,8 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Continued development](#continued-development)
 - [Author](#author)
-
-
 
 ## Overview
 
@@ -24,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/mkboris/fylo-landing-page
-- Live Site URL: https://mkboris.github.io/fylo-landing-page/
+- [Solution](https://github.com/mkboris/fylo-landing-page)
+- [Live Site](https://fylo-landing-page-orcin.vercel.app/)
 
 ### Built with
 
@@ -34,12 +30,6 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-### Continued development
-
-Building more projects to improve my skills.
-
 ## Author
 
 - Frontend Mentor - [@mkboris](https://www.frontendmentor.io/profile/mkboris)
-- Twitter - [@mk_boris](https://www.twitter.com/mk_boris)
-
