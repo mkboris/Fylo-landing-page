@@ -655,10 +655,6 @@ video {
   width: 100%;
 }
 
-.w-\[105px\] {
-  width: 105px;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -691,10 +687,6 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 .rounded {
@@ -856,6 +848,10 @@ video {
   line-height: 18px;
 }
 
+.leading-\[21px\] {
+  line-height: 21px;
+}
+
 .tracking-\[0\.38px\] {
   letter-spacing: 0.38px;
 }
@@ -979,12 +975,21 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:-mx-0 {
+    margin-left: -0px;
+    margin-right: -0px;
+  }
+
   .lg\:mb-10 {
     margin-bottom: 2.5rem;
   }
 
   .lg\:mb-\[21px\] {
     margin-bottom: 21px;
+  }
+
+  .lg\:mr-\[5px\] {
+    margin-right: 5px;
   }
 
   .lg\:flex {
@@ -995,8 +1000,8 @@ video {
     height: 2rem;
   }
 
-  .lg\:h-\[360px\] {
-    height: 360px;
+  .lg\:h-\[350px\] {
+    height: 350px;
   }
 
   .lg\:h-\[391px\] {
@@ -1067,10 +1072,6 @@ video {
     width: 100%;
   }
 
-  .lg\:w-\[135px\] {
-    width: 135px;
-  }
-
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1105,18 +1106,6 @@ video {
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .lg\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .lg\:space-x-12 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(3rem * var(--tw-space-x-reverse));
-    margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .lg\:px-\[80px\] {
     padding-left: 80px;
     padding-right: 80px;
@@ -1143,12 +1132,12 @@ video {
     padding-right: 18em;
   }
 
-  .lg\:pr-\[2em\] {
-    padding-right: 2em;
-  }
-
   .lg\:pr-\[3em\] {
     padding-right: 3em;
+  }
+
+  .lg\:pr-\[4em\] {
+    padding-right: 4em;
   }
 
   .lg\:pr-\[8em\] {
@@ -1187,6 +1176,10 @@ video {
   .lg\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .lg\:leading-6 {
+    line-height: 1.5rem;
   }
 
   .lg\:leading-\[15px\] {

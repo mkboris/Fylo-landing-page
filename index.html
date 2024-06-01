@@ -2,301 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./dist/output.css" />
+
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
   </head>
-  <body class="overflow-x-hidden min-h-screen">
-    <header>
-      <nav
-        class="flex items-center justify-between w-[327px] lg:w-[1280px] mx-auto py-6 lg:py-[65px] mb-[74px] lg:mb-[21px]"
-      >
-        <a href="#">
-          <img class="w-[80px] lg:w-[166px]" src="images/logo.svg" alt="" />
-        </a>
-        <div class="space-x-4 lg:space-x-12 relative top-[-2px]">
-          <a
-            class="text-xs lg:text-base font-raleway text-VeryDarkBlue font-normal hover:text-BrightBlue hover:underline hover:underline-offset-8"
-            href="#"
-            >Features</a
-          >
-          <a
-            class="text-xs lg:text-base font-raleway text-VeryDarkBlue font-normal hover:text-BrightBlue hover:underline hover:underline-offset-8"
-            href="#"
-            >Team</a
-          >
-          <a
-            class="text-xs lg:text-base font-raleway text-VeryDarkBlue font-normal hover:text-BrightBlue hover:underline hover:underline-offset-8"
-            href="#"
-            >Sign In</a
-          >
-        </div>
-      </nav>
-    </header>
+  <body>
+    Features Team Sign In All your files in one secure location, accessible
+    anywhere. Fylo stores your most important files in one secure location.
+    Access them wherever you need, share and collaborate with friends, family,
+    and co-workers. Get Started Stay productive, wherever you are Never let
+    location be an issue when accessing your files. Fylo has you covered for all
+    of your file storage needs. Securely share files and folders with friends,
+    family and colleagues for live collaboration. No email attachments required!
+    See how Fylo works Fylo has improved our team productivity by an order of
+    magnitude. Since making the switch our team has become a well-oiled
+    collaboration machine. Kyle Burton Founder & CEO, Huddle Get early access
+    today It only takes a minute to sign up and our free starter tier is
+    extremely generous. If you have any questions, our support team would be
+    happy to help you. Get Started For Free Phone: +1-543-123-4567
+    example@fylo.com About Us Jobs Press Blog Contact Us Terms Privacy
 
-    <main>
-      <section
-        class="w-[320px] lg:w-[1280px] mx-auto flex flex-col lg:flex-row-reverse items-center mb-10"
-      >
-        <div>
-          <img
-            class="w-[304px] lg:w-[640px] h-[225px] lg:h-[474px] mb-10"
-            src="images/illustration-1.svg"
-            alt=""
-          />
-        </div>
-        <div
-          class="lg:w-[627px] text-center lg:text-left lg:h-[474px] flex flex-col justify-center pb-[4.5em]"
-        >
-          <div>
-            <h1
-              class="text-2xl lg:text-[40px] leading-9 lg:leading-[60px] font-bold text-VeryDarkBlue font-raleway mb-6 lg:pr-5"
-            >
-              All your files in one secure location, accessible anywhere.
-            </h1>
-            <p
-              class="text-sm text-[17px] leading-6 tracking-[0.53px] font-normal text-VeryDarkBlue font-sans px-4 lg:pl-0 mb-6 lg:pr-[2em]"
-            >
-              Fylo stores your most important files in one secure location.
-              Access them wherever you need, share and collaborate with friends,
-              family, and co-workers.
-            </p>
-          </div>
-          <div>
-            <input
-              class="w-[304px] lg:w-[320px] h-[40px] lg:h-[45px] border border-VeryDarkBlue rounded text-xs lg:text-sm font-sans text-LightGray px-8 font-normal mb-4"
-              type="text"
-              placeholder="Enter your email..."
-            />
-            <button
-              class="w-[304px] lg:w-[200px] h-[40px] lg:h-[45px] text-sm font-raleway font-bold text-[white] bg-BrightBlue hover:bg-opacity-[.6] rounded hover:scale-95"
-            >
-              Get Started
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="flex flex-col lg:flex-row-reverse px-7 lg:px-[80px] items-center justify-evenly lg:justify-between text-center lg:text-left mx-auto"
-        id="center-section"
-      >
-        <div>
-          <img
-            class="w-[320px] lg:w-[542px] h-[241px] lg:h-[409px]"
-            src="images/illustration-2.svg"
-            alt=""
-          />
-        </div>
-        <div class="lg:w-[648px]">
-          <div class="mb-12">
-            <h2
-              class="text-base lg:text-[40px] font-bold font-raleway text-VeryDarkBlue mb-6 lg:mb-10 lg:tracking-[-1px]"
-            >
-              Stay productive, wherever you are
-            </h2>
-            <p
-              class="text-sm lg:text-base font-normal font-sans text-LightGray mb-5 text-left lg:pr-[8em]"
-            >
-              Never let location be an issue when accessing your files. Fylo has
-              you covered for all of your file storage needs.
-            </p>
-            <p
-              class="text-sm lg:text-base font-normal font-sans text-LightGray mb-8 text-left lg:pr-[8em]"
-            >
-              Securely share files and folders with friends, family and
-              colleagues for live collaboration. No email attachments required!
-            </p>
-            <a href="#"
-              ><p
-                class="text-xs lg:text-base font-normal font-sans text-ModerateCyan underline underline-offset-8 hover:text-BrightBlue hover:no-underline hover:animate-pulse"
-              >
-                See how Fylo works
-                <img
-                  class="inline-block"
-                  src="images/icon-arrow.svg"
-                  alt=""
-                /></p
-            ></a>
-          </div>
-          <div
-            class="w-280px lg:w-[356px] h-[170px] lg:h[215px] bg-[white] text-left flex flex-col justify-center rounded shadow-md pl-8"
-          >
-            <div>
-              <img class="mb-2" src="images/icon-quotes.svg" alt="" />
-              <article
-                class="text-[10px] lg:text-[13px] lg:leading-[23px] leading-[18px] tracking-[0.38px] font-normal font-sans text-VeryDarkBlue mb-2 pr-[4em] lg:pr-[3em]"
-              >
-                Fylo has improved our team productivity by an order of
-                magnitude. Since making the switch our team has become a
-                well-oiled collaboration machine.
-              </article>
-            </div>
-            <div class="w-107px h-[27px] flex gap-[.5em]">
-              <img
-                class="w-6 h-6 lg:w-8 lg:h-8 rounded-full"
-                src="images/avatar-testimonial.jpg"
-                alt=""
-              />
-              <div>
-                <p
-                  class="text-[9px] lg:text-[11px] tracking-[0.45px] lg:tracking-[0.55px] font-bold font-sans text-VeryDarkBlue"
-                >
-                  Kyle Burton
-                </p>
-                <p
-                  class="text-[6px] lg:text-[8px] leading-[11.8px] lg:leading-[15px] tracking-[0.3px] font-normal font-sans text-VeryDarkBlue"
-                >
-                  Founder & CEO, Huddle
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="flex flex-col lg:flex-row w-full h-[345px] lg:w-full lg:h-[360px] mx-auto items-center justify-center text-center lg:text-left bg-DesaturatedBlue"
-      >
-        <div class="lg:w-[1280px] flex flex-col lg:flex-row">
-          <div>
-            <h3
-              class="text-lg lg:text-[32px] leading-6 lg:leading-[48px] font-raleway font-bold text-[white] mb-6"
-            >
-              Get early access today
-            </h3>
-            <p
-              class="text-sm lg:text-base font-sans font-normal text-[white] mb-6 lg:pr-[18em] px-[3em] lg:pl-[0]"
-            >
-              It only takes a minute to sign up and our free starter tier is
-              extremely generous. If you have any questions, our support team
-              would be happy to help you.
-            </p>
-          </div>
-          <div class="lg:flex lg:flex-col lg:justify-center lg:gap-[1em]">
-            <input
-              class="w-[240px] lg:w-[480px] h-[32px] lg:h-[48px] border border-VeryDarkBlue rounded text-[10px] lg:text-sm font-sans text-LightGray px-8 font-normal mb-2"
-              type="text"
-              placeholder="Enter your email..."
-            />
-            <button
-              class="w-[240px] lg:w-[200px] h-[32px] lg:h-[48px] text-[10px] lg:text-sm font-raleway font-bold text-[white] bg-BrightBlue hover:bg-opacity-[.4] rounded hover:scale-95"
-            >
-              Get Started For Free
-            </button>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer
-      class="bg-VeryDarkBlue mx-auto flex items-center w-full h-[590px] lg:h-[391px]"
-    >
-      <div
-        class="lg:w-[1280px] w-[320px] flex flex-col lg:flex-row mx-auto justify-between lg:items-baseline"
-      >
-        <div class="flex flex-col mb-10">
-          <a href="#"
-            ><img
-              class="mb-8 w-[105px] lg:w-[135px]"
-              src="images/logo-dark-mode.svg"
-              alt=""
-          /></a>
-          <div class="flex gap-4">
-            <img class="mb-6 w-6 h-6" src="images/icon-phone.svg" alt="" />
-            <a href="#"
-              ><p
-                class="text-base font-sans font-normal text-[white] hover:text-DesaturatedBlue"
-              >
-                Phone: +1-543-123-4567
-              </p></a
-            >
-          </div>
-          <div class="flex gap-4">
-            <img class="w-6 h-6" src="images/icon-email.svg" alt="" />
-            <a href="#"
-              ><p
-                class="text-base font-sans font-normal text-[white] hover:text-DesaturatedBlue"
-              >
-                example@fylo.com
-              </p></a
-            >
-          </div>
-        </div>
-        <div class="flex flex-col gap-4 mb-10">
-          <a
-            class="text-base font-sans font-normal text-[white] hover:text-DesaturatedBlue"
-            href="#"
-            >About Us</a
-          >
-          <a
-            class="text-base font-sans font-normal text-[white] hover:text-DesaturatedBlue"
-            href="#"
-            >Jobs</a
-          >
-          <a
-            class="text-base font-sans font-normal text-[white] hover:text-DesaturatedBlue"
-            href="#"
-            >Press</a
-          >
-          <a
-            class="text-base font-sans font-normal text-[white] hover:text-DesaturatedBlue"
-            href="#"
-            >Blog</a
-          >
-        </div>
-        <div class="flex flex-col gap-4 mb-10">
-          <a
-            class="text-base font-sans font-normal text-[white] hover:text-DesaturatedBlue"
-            href="#"
-            >Contact Us</a
-          >
-          <a
-            class="text-base font-sans font-normal text-[white] hover:text-DesaturatedBlue"
-            href="#"
-            >Terms</a
-          >
-          <a
-            class="text-base font-sans font-normal text-[white] hover:text-DesaturatedBlue"
-            href="#"
-            >Privacy</a
-          >
-        </div>
-        <div class="flex gap-4">
-          <a href="#"
-            ><img
-              class="icon p-1 bg-DesaturatedBlue rounded-full"
-              src="images/facebook.svg"
-              alt=""
-          /></a>
-          <a href="#"
-            ><img
-              class="icon p-1 bg-DesaturatedBlue rounded-full"
-              src="images/twitter.svg"
-              alt=""
-          /></a>
-          <a href="#"
-            ><img
-              class="icon p-1 bg-DesaturatedBlue rounded-full"
-              src="images/instagram.svg"
-              alt=""
-          /></a>
-        </div>
-      </div>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
     </footer>
   </body>
 </html>
